@@ -12,9 +12,9 @@ function App() {
           <img
             src="/TestRender.png"
             alt="Hero"
-            className="hidden md:block absolute w-1/2 max-w-md object-contain -z-10"
+            className="hidden md:block absolute w-1/2 max-w-md object-contain -z-10 "
             style={{
-              top: "1%",
+              top: "-10%",
               left: "50%",
               transform: "translateX(-50%)",
             }}
@@ -45,7 +45,7 @@ function App() {
           <div className="flex w-screen absolute justify-end -z-10">
             <img src="/stalker.png" className="w-[700px]" alt="Stalker" />
           </div>
-          <div className="max-w-7xl mx-auto flex flex-col items-center gap-16">
+          <div className="max-w-6xl mx-auto flex flex-col items-center gap-16">
             {/* <h2 className="text-4xl md:text-5xl font-bold text-black text-center">
               DOWNLOAD & TRAILER
             </h2> */}
@@ -72,8 +72,8 @@ function App() {
                     alt="sd"
                   />
                 </div>
-                <div className="flex-1 relative w-[800px] aspect-video bg-black rounded-xl overflow-hidden shadow-2xl">
-                  <div className="flex-1 relative w-[800px] aspect-video rounded-xl overflow-hidden shadow-2xl">
+                <div className="flex-1 relative w-[600px] aspect-video bg-black rounded-xl overflow-hidden shadow-2xl">
+                  <div className="flex-1 relative w-[600px] aspect-video rounded-xl overflow-hidden shadow-2xl">
                     <iframe
                       className="w-full h-full"
                       src="https://www.youtube.com/embed/HGaqXGMt014?start=10"
