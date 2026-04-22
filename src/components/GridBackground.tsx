@@ -5,7 +5,6 @@ interface GridBackgroundProps {
 export function GridBackground({ children }: GridBackgroundProps) {
   return (
     <div className="relative min-h-screen w-full bg-red-300 overflow-hidden">
-      {/* Grid overlay */}
       <div
         className="absolute inset-0 opacity-30"
         style={{
