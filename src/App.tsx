@@ -80,13 +80,13 @@ function App() {
           <div className="hidden md:flex w-screen absolute justify-end -z-10">
             <img src="/stalker.png" className="w-[700px]" alt="Stalker" />
           </div>
-          <div className="max-w-6xl mx-auto flex flex-col items-center gap-16">
+          <div className="max-w-7xl mx-auto flex flex-col items-center gap-16">
             {/* <h2 className="text-4xl md:text-5xl font-bold text-black text-center">
               DOWNLOAD & TRAILER
             </h2> */}
             <div className="flex flex-col md:flex-row gap-12 w-full items-center">
               {/* Left: Download Buttons */}
-              <div className="flex-1 flex flex-col gap-6">
+              <div className="flex-0 md:flex-1 flex flex-col gap-6 max-w-md">
                 <h3 className="text-2xl md:text-3xl font-bold text-white text-center md:text-left">
                   Choose Your Platform
                 </h3>
@@ -99,7 +99,7 @@ function App() {
               </div>
 
               {/* Right: Trailer */}
-              <div className="w-full md:w-auto">
+              <div className="flex-1 md:flex-2 w-full">
                 <div>
                   <img
                     src="/coffeeCup.png"
