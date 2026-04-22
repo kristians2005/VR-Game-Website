@@ -1,5 +1,4 @@
 import { GridBackground } from "./components/GridBackground";
-import { ChangeNotice } from "./components/ChangeNotice";
 import { useEffect, useMemo, useState } from "react";
 
 function App() {
