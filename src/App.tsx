@@ -90,7 +90,7 @@ function App() {
                 <h3 className="text-2xl md:text-3xl font-bold text-white text-center md:text-left">
                   Choose Your Platform
                 </h3>
-                <a href="#" className="btn btn-primary w-full justify-center h-12 md:h-16 text-lg md:text-3xl">
+                <a href="https://drive.google.com/file/d/1lVtHcYBASGLpBPXVqN8kM_-chz1d4XRL/view?usp=sharing" className="btn btn-primary w-full justify-center h-12 md:h-16 text-lg md:text-3xl">
                   Download for PCVR
                 </a>
                 <a href="#" className="btn btn-secondary w-full justify-center h-12 md:h-16 text-lg md:text-3xl">
