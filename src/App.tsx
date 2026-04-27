@@ -139,10 +139,10 @@ function App() {
             <div className="flex-1 text-left text-white space-y-3 max-w-4xl">
               <p className="text-base sm:text-lg md:text-3xl leading-relaxed drop-shadow-md">
                 <strong>Back to Work</strong> is a{" "}
-                <strong>VR restaurant game</strong> where the{" "}
+                <strong>VR game</strong> where the{" "}
                 <strong>hours are inhumane</strong>,{" "}
-                <strong>coworkers are unbearable</strong>, and{" "}
-                <strong>customers are straight-up uncanny</strong>.
+                <strong>the boss is unbearable</strong>, and{" "}
+                <strong>pests are straight-up uncanny</strong>.
               </p>
               <p className="text-base sm:text-lg md:text-3xl font-semibold drop-shadow-md">
                 Clock in, keep your sanity, and make it through the shift.
